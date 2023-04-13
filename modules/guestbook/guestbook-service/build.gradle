@@ -1,0 +1,21 @@
+dependencies {
+	compile project(":modules:guestbook:guestbook-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	serviceBuilder group: "com.liferay", name: "com.liferay.portal.tools.service.builder", version: "1.0.445"
+
+	compileOnly 'com.liferay.portal:release.portal.api'
+	compileOnly 'com.liferay.portal:release.portal.api'
+	compileOnly 'com.liferay.portal:release.portal.api'
+	compileOnly 'com.liferay.portal:release.portal.api'
+}
+
+buildService {
+	apiDir = "../guestbook-api/src/main/java"
+}
+
+group = "com.liferay.docs.guestbook"
+
+//HI ROZEE
+
+//hi-noah101010101010

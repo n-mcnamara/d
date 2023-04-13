@@ -1,0 +1,6 @@
+buildService {
+	apiDir = "../myservices-api/src/main/java"
+}
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}

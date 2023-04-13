@@ -1,0 +1,10 @@
+Bundle-Name: recordedlectures-api
+Bundle-SymbolicName: com.liferay.docs.recordedlectures.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.docs.recordedlectures.exception,\
+	com.liferay.docs.recordedlectures.model,\
+	com.liferay.docs.recordedlectures.service,\
+	com.liferay.docs.recordedlectures.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../recordedlectures-service/service.xml

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.docs.recordedlectures.model.Lecture">
+		<field name="mvccVersion" type="long" />
+		<field name="uuid" type="String" />
+		<field name="recordedlectureId" type="long" />
+		<field name="Title" type="String" />
+		<field name="videoURL" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+	</model>
+	<model name="com.liferay.docs.recordedlectures.model.lectureUpload">
+		<field name="mvccVersion" type="long" />
+		<field name="uuid" type="String" />
+		<field name="uploadId" type="long" />
+		<field name="Title" type="String" />
+		<field name="videoURL" type="String" />
+		<field name="name" type="String" />
+		<field name="recordedlectureId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+	</model>
+</model-hints>

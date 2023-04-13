@@ -1,0 +1,13 @@
+dependencies {
+	compile project(":modules:recordedlectures:recordedlectures-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	serviceBuilder group: "com.liferay", name: "com.liferay.portal.tools.service.builder", version: "1.0.445"
+
+}
+
+buildService {
+	apiDir = "../recordedlectures-api/src/main/java"
+}
+
+group = "com.liferay.docs.recordedlectures"
